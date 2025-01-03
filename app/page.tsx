@@ -51,7 +51,7 @@ const HomePage: React.FC = () => {
       <header className="bg-white shadow-md sticky top-0 z-50">
         <div className="container mx-auto px-6 py-4 flex justify-between items-center">
           <h1 className="text-3xl font-bold text-primary">
-            AN<b className="text-[red]">Store</b>
+            AS<b className="text-[red]">Store</b>
           </h1>
           <button className="bg-primary text-white px-4 py-2 rounded-md hover:bg-indigo-700 transition">
             🛒 Cart ({cart.length})
@@ -60,7 +60,7 @@ const HomePage: React.FC = () => {
       </header>
 
       {/* Hero Section */}
-      <section className="bg-secondary text-white py-16 text-center">
+      <section className="bg-secondary text-black py-16 text-center">
         <h2 className="text-4xl font-bold">Explore Our Latest Collection</h2>
         <p className="text-lg mt-2">Find products that match your lifestyle.</p>
         <button
